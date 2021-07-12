@@ -111,7 +111,7 @@ def pi_version():
         return 3
     elif match.group(1) == 'BCM2711':
         # Pi 3b+
-        return 4
+        return 3
     else:
         # Something else, not a pi.
         return None
